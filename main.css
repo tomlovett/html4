@@ -1,0 +1,40 @@
+.site_header {
+	background-color: #00b300;
+	border-bottom: 3px solid #008000;
+	position: relative;
+}
+
+h1 {
+	color: white;
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+}
+
+.navbar {
+	background-color: #333333;
+	border-bottom: #262626;
+}
+
+h3 {
+	width: 90%;
+	border-bottom: 1px solid lightgrey;
+}
+
+.main_content {
+	width: 90%;
+}
+
+section header
+
+tech_table
+
+code_snippet
+
+img_container
+
+byline
+
+user_comments
+
+	comment_block
