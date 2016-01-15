@@ -1,8 +1,11 @@
 body {
 	box-sizing: border-box;
-	font-size: .9em;
+	font-size: .75em;
 	width: 90vw;
-	background-color: #737373;
+	margin: 0 auto;
+	max-width: 480px; /*placeholder*/
+	background-color: #e6e6e6;
+	border: 1px solid grey;
 }
 
 .basic-anchor {
@@ -11,9 +14,10 @@ body {
 }
 
 .header-coloring {
-	background-color: #00b300;
-	border-bottom: 3px solid #008000;
+	background-color: #00cc44;
+	border-bottom: 5px solid #009933;
 	position: relative;
+	height: 20vh;
 }
 
 .header-txt {
@@ -21,29 +25,51 @@ body {
 	position: absolute;
 	left: 5px;
 	bottom: 5px;
+	margin: 0;
 }
 
 .navbar {
-	background-color: #333333;
-	border-bottom: #262626;
+	background-color: #4d4d4d;
+	border-bottom: 3px solid #333333;
 	text-align: right;
+	height: 30px;
+	line-height: 30px;
 }
 
 .navbar-link {
-
+	color: white;
+	vertical-align: middle;
+	margin: 0 1vw;
 }
 
-.article-header {
-
+.line-break {
+	display: inline-block;
+	width: 90%;
+	height: 2px;
+	background-color: grey;
 }
 
 .section-header {
 	width: 90%;
+	margin: 3.5vh auto;
+	font-style: bold;
+	padding: 0 0 3px 1vh;
 	border-bottom: 1px solid lightgrey;
 }
 
+.article-header {
+	border-bottom: none;
+	padding: 0;
+}
+
 .main-content {
-	width: 90vw;
+	width: 80%;
+	margin: 3.5vh auto;
+	line-height: 1.5em;
+}
+
+.text-link {
+	color: orange;
 }
 
 .tech-table {
