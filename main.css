@@ -1,10 +1,22 @@
-.site_header {
+body {
+	box-sizing: border-box;
+	font-size: .9em;
+	width: 90vw;
+	background-color: #737373;
+}
+
+.basic-anchor {
+	text-decoration: none;
+	color: inherit;
+}
+
+.header-coloring {
 	background-color: #00b300;
 	border-bottom: 3px solid #008000;
 	position: relative;
 }
 
-h1 {
+.header-txt {
 	color: white;
 	position: absolute;
 	left: 5px;
@@ -14,25 +26,36 @@ h1 {
 .navbar {
 	background-color: #333333;
 	border-bottom: #262626;
+	text-align: right;
 }
 
-h3 {
+.navbar-link {
+
+}
+
+.article-header {
+
+}
+
+.section-header {
 	width: 90%;
 	border-bottom: 1px solid lightgrey;
 }
 
-.main_content {
-	width: 90%;
+.main-content {
+	width: 90vw;
 }
 
+.tech-table {
 
-tech_table
+}
 
-code_snippet
+.code-snippet
 
-img_container
+.img-container
 
 .byline {
+
 	color: grey;
 	width: 90%;
 }
