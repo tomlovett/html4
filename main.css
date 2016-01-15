@@ -119,26 +119,18 @@ img {
 
 .strikethrough-line1 {
 	display: inline-block;
-	width: 5vh;
+	width: 100%;
 	height: 50%;
-	border-top: 1px solid #b3b3b3;
+	border-bottom: 1px solid #b3b3b3;
+	vertical-align: middle
 }
 
 .strikethrough-txt {
 	display: inline-block;
 	color: #b3b3b3;
-	vertical-align: center;
-	top: 50%;
-}
-
-.strikethrough-line2 {
-	display: inline-block;
-	height: 50%;
-	width: 100%;
-	border-top: 1px solid #b3b3b3;
-}
-
-form {
+	background-color: #e6e6e6;
+	vertical-align: middle;
+	margin:0 3vh;
 }
 
 .entry_field {
@@ -172,17 +164,21 @@ form {
 	color: white;
 	background-color: #990000;
 	border: none;
-	padding: 10px 0;
+	padding: 15px 0;
 }
 
 .avatar {
-	display: block;
+	width: 12.5%;
+	float: left;
+	margin-right: 10px;
 }
 
 .user-info {
-	float: left;
+	display: block;
 }
 
-.sub-comments {
-	border-left: 2px solid #b3b3b3;
+.sub-comment {
+	margin: 0 5vh;
+	padding-left: 2.5vh;
+	border-left: 1px solid #b3b3b3;
 }
