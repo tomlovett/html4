@@ -21,8 +21,8 @@
 	<p class="main-content skinny">Neque porro quisquam est, <strong>qui dolorem ipsum</strong> quia dolor sit amet, <a href="#" class="text-link basic-anchor">consectetur</a>, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et <em>dolore magnam aliquam quaerat</em> voluptatem.</p>
 
 	<h3 class="section-header full">Section Title</h3>
-	<p class="main-content skinny">Neque porro quisquam est, <strong>qui dolorem ipsum</strong> quia dolor sit amet, <a href="#" class="text-link basic-anchor">consectetur</a>, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et <em>dolore magnam aliquam quaerat</em> voluptatem.</p>
-	<p class="main-content skinny">Neque porro quisquam est, <strong>qui dolorem ipsum</strong> quia dolor sit amet, <a href="#" class="text-link basic-anchor">consectetur</a>, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et <em>dolore magnam aliquam quaerat</em> voluptatem.</p>
+	<p class="main-content skinny">Neque porro quisquam est, åqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+	<p class="main-content skinny">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 	<p class="main-content skinny">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
 	<table class="tech-table full">
 		<tr>
@@ -50,13 +50,19 @@
 
 	<h3 class="section-header full">Section Title</h3>
 	<p class="main-content skinny">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
-	<div class="code_snippet"></div>
+	<div class="full">
+		<div class="code-snippet">
+<pre>$('#myElement').click(function(){
+  console.log('Clicked!')  <!-- YUCK!! -->
+});	</pre>
+		</div>
+	</div>
 	<p class="main-content skinny">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
 	<p class="main-content skinny">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
 
 	<h3 class="section-header full">Section Title</h3>
 	<p class="main-content skinny">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
-	<div class="image-container full"><img src="http://placehold.it/600x150"></div>
+	<div class="full"><img src="http://placehold.it/600x150"></div>
 	<ol class="ol-basic full">
 		<li><strong>Create HTML</strong>: Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</li>
 		<li><strong>Make Pretty with CSS</strong>: Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</li>
@@ -71,12 +77,52 @@
 		<div class="strikethrough-txt">USER INFO</div>
 		<div class="strikethrough-line2"></div>
 	</div>
-	<!-- email, display name, website input -->
-	<!-- comment -->
+	<form class="full">
+          <div class="entry_field">
+            <label class="text_prompt">Email</label>
+            <input type="email" name="email" class="input_field">
+          </div>
+          <div class="entry_field">
+            <label class="text_prompt">Display Name</label>
+            <input type="text" name="Display Name" class="input_field">
+          </div>
+          <div class="entry_field">
+            <label class="text_prompt">Website</label>
+            <input type="text" name="Website" class="input_field">
+          </div>
+    </form>
+    <div class="full">
+    	COMMENT
+    </div>
 	<textarea class="formatted-textarea full"></textarea>
 	<button class="comment-submit full">SUBMIT</button>
-	<!-- comments -->
-
-
+		
+	<div class="full">
+		<div>
+			<img src="http://placehold.it/50x50">
+			<h3>User 1</h3><span class="byline"><em>January 13, 2014</em></span>
+			<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+	</div>
+	<div class="sub-comment full">
+		<div>
+			<img src="http://placehold.it/50x50">
+			<h3>User 2</h3><span class="byline"><em>January 13, 2014</em></span>
+			<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+		</div>
+	</div>
+	<div class="sub-comment full">
+		<div>
+			<img src="http://placehold.it/50x50">
+			<h3>User 1</h3><span class="byline"><em>January 13, 2014</em></span>
+			<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+		</div>
+	</div>
+	<div class="full">
+		<div>
+			<img src="http://placehold.it/50x50">
+			<h3>User 3</h3><span class="byline"><em>January 13, 2014</em></span>
+			<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+		</div>
+	</div>
 </body>
 </html>

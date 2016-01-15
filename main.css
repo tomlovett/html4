@@ -56,12 +56,12 @@ body {
 	display: inline-block;
 	width: 90%;
 	height: 2px;
-	background-color: grey;
+	background-color: #b3b3b3;
 }
 
 .section-header {
 	padding: 0 0 3px 1vh;
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid #b3b3b3;
 }
 
 .article-header {
@@ -98,9 +98,11 @@ body {
 	border: none;
 }
 
-.code-snippet
-
-.img-container
+.code-snippet {
+	font-family: Courier, monospace;
+	background-color: #b3b3b3;
+	padding: 2.5vh;
+}
 
 img {
 	width: 100%;
@@ -118,7 +120,8 @@ img {
 .strikethrough-line1 {
 	display: inline-block;
 	width: 5vh;
-	border-bottom: 1px solid #b3b3b3;
+	height: 50%;
+	border-top: 1px solid #b3b3b3;
 }
 
 .strikethrough-txt {
@@ -130,8 +133,32 @@ img {
 
 .strikethrough-line2 {
 	display: inline-block;
-	min-width: 100%;
-	border-bottom: 1px solid #b3b3b3;
+	height: 50%;
+	width: 100%;
+	border-top: 1px solid #b3b3b3;
+}
+
+form {
+}
+
+.entry_field {
+	display: inline-block;
+	position: relative;
+	height: 30px;
+	text-align: right;
+	width: 100%;
+}
+
+.entry_field label {
+	margin: 0px 2.5vh;
+}
+
+.input_field {
+	width: 70%;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	border-style: solid;
+	padding: 5px;
 }
 
 .formatted-textarea {
@@ -148,6 +175,14 @@ img {
 	padding: 10px 0;
 }
 
-user_comments
+.avatar {
+	display: block;
+}
 
-	comment_block
+.user-info {
+	float: left;
+}
+
+.sub-comments {
+	border-left: 2px solid #b3b3b3;
+}
