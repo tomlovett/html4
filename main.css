@@ -2,7 +2,7 @@ body {
 	box-sizing: border-box;
 	font-size: .75em;
 	width: 90vw;
-	margin: 0 auto;
+	margin: 0 auto 5vh auto;
 	max-width: 480px; /*placeholder*/
 	background-color: #e6e6e6;
 	border: 1px solid grey;
@@ -11,6 +11,16 @@ body {
 .basic-anchor {
 	text-decoration: none;
 	color: inherit;
+}
+
+.skinny {
+	width: 80%;
+	margin: 3.5vh auto;
+}
+
+.full {
+	width: 90%;
+	margin: 3.5vh auto;
 }
 
 .header-coloring {
@@ -50,11 +60,8 @@ body {
 }
 
 .section-header {
-	width: 90%;
-	margin: 3.5vh auto;
-	font-style: bold;
 	padding: 0 0 3px 1vh;
-	border-bottom: 1px solid lightgrey;
+	border-bottom: 1px solid grey;
 }
 
 .article-header {
@@ -72,18 +79,73 @@ body {
 	color: orange;
 }
 
-.tech-table {
+.tech-table { }
 
+.tech-table td, .tech-table th {
+	box-sizing: initial;
+	padding: 5px;
+	border: 1px solid #808080;
+}
+
+.tech-table th {
+	background-color: #b3b3b3
+}
+
+.button-basic {
+	background-color: #3385ff;
+	color: white;
+	padding: 5px 15px;
+	border: none;
 }
 
 .code-snippet
 
 .img-container
 
-.byline {
+img {
+	width: 100%;
+}
 
+.ol-basic {
+	-webkit-padding-start: 3.5vh;
+}
+
+.byline {
 	color: grey;
-	width: 90%;
+	margin-bottom: 5vh;
+}
+
+.strikethrough-line1 {
+	display: inline-block;
+	width: 5vh;
+	border-bottom: 1px solid #b3b3b3;
+}
+
+.strikethrough-txt {
+	display: inline-block;
+	color: #b3b3b3;
+	vertical-align: center;
+	top: 50%;
+}
+
+.strikethrough-line2 {
+	display: inline-block;
+	min-width: 100%;
+	border-bottom: 1px solid #b3b3b3;
+}
+
+.formatted-textarea {
+	display: block;
+	height: 15vh;
+}
+
+.comment-submit {
+	font-size: .9em;
+	display: block;
+	color: white;
+	background-color: #990000;
+	border: none;
+	padding: 10px 0;
 }
 
 user_comments
